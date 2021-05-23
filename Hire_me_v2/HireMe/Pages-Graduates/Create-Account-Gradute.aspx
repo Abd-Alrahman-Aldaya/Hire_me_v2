@@ -92,6 +92,7 @@
                     <br />
                     <h3 class="title-login" style="margin-top:35%;"><i class="fa fa-chevron-left icon" ></i>  المستوى التعليمي </h3>  
 
+
                     <div class="post-document">
                         <div class="colume1">
                             <div class="post-login">
