@@ -22,13 +22,22 @@ namespace HireMe.Pages_Graduates {
         protected global::System.Web.UI.HtmlControls.HtmlForm form_Create_Account_Gradute;
         
         /// <summary>
-        /// name_gradute control.
+        /// first_name_gradute control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox name_gradute;
+        protected global::System.Web.UI.WebControls.TextBox first_name_gradute;
+        
+        /// <summary>
+        /// last_name_gradute control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox last_name_gradute;
         
         /// <summary>
         /// fname_gradute control.
@@ -49,6 +58,15 @@ namespace HireMe.Pages_Graduates {
         protected global::System.Web.UI.WebControls.TextBox mname_gradute;
         
         /// <summary>
+        /// id_number_gradute control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox id_number_gradute;
+        
+        /// <summary>
         /// date_gradute control.
         /// </summary>
         /// <remarks>
@@ -67,6 +85,15 @@ namespace HireMe.Pages_Graduates {
         protected global::System.Web.UI.WebControls.TextBox phone_gradute;
         
         /// <summary>
+        /// DDL_country_gradute control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DDL_country_gradute;
+        
+        /// <summary>
         /// specialization_gradute control.
         /// </summary>
         /// <remarks>
@@ -74,6 +101,15 @@ namespace HireMe.Pages_Graduates {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox specialization_gradute;
+        
+        /// <summary>
+        /// avg_gradute control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox avg_gradute;
         
         /// <summary>
         /// scientific_level_gradute control.

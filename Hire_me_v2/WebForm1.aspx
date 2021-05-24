@@ -11,6 +11,11 @@
         <div>
             <asp:DropDownList ID="DropDownList1" runat="server"></asp:DropDownList>
 
+            <asp:DataList ID="DataList1" runat="server">
+            </asp:DataList>
+            <asp:ListView ID="ListView1" runat="server">
+            </asp:ListView>
+
         </div>
     </form>
 </body>
