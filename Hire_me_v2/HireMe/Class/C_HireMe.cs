@@ -21,47 +21,60 @@ namespace HireMe.Class
         }
         public DataTable check_vacancy(int avg ,string prof)
         {
-            string q = "select ministry_name, vacancy_type from tb_ministry,tb_vacancy where tb_vacancy.id_ministry=tb_ministry.id_ministry and tb_vacancy.vacancy_avg>='" + avg+"'and tb_vacancy.vacancy_name='"+prof+"';";
+          //  string q = "select ministry_name+ vacancy_type ministry_name, vacancy_type from tb_ministry,tb_vacancy where tb_vacancy.id_ministry=tb_ministry.id_ministry and tb_vacancy.vacancy_avg>='" + avg+"'and tb_vacancy.vacancy_name='"+prof+"';";
+            string q = "select ministry_name+' | '+ vacancy_type z,id_vacancy, ministry_name, vacancy_type from tb_ministry,tb_vacancy where tb_vacancy.id_ministry=tb_ministry.id_ministry and tb_vacancy.vacancy_avg>='" + avg+"'and tb_vacancy.vacancy_name='"+prof+"';";
             Data_Access ds = new Data_Access();
             DataTable dt = ds.SelectData(q);
             return dt ;
         }
 
-        public void choice()
+        //public void choice()
+        //{
+        //    Data_Access ds = new Data_Access();
+        //    DataTable dt = new DataTable();
+        //    for (int i = 0; i < Order.Rows.Count; i++)
+        //    {
+        //        int x = (int)order.Rows[i][0];
+        //        for (int j = 1; j < 6; j++)
+        //        {
+        //        string q = "select id_vacancy from tb_desire where id_graduate='" + x + "' and des_order='" + j + "'";
+        //        var x1 =  ds.SelectData(q);
+        //         var s = ds.SelectData("select vacancy_count from tb_vacancy where id_vacancy='"+x1.Rows[0][0]+"'");
+        //            var x2 = ds.SelectData("select * from tb_result where id_ministry='" + x1 + "'");
+        //            if (x2.Rows.Count <(int) s.Rows[0][0])
+        //            {
+
+        //            }
+        //        }
+
+        //    }
+
+        //}
+
+        //public DataTable Insert_To_Desire(string minstryname, string vacancy_type,int id_grudat,int desorder)
+        //{
+        //    string q = "select id_ministry from tb_ministry where ministry_name='" + minstryname + "'";
+        //    Data_Access ds = new Data_Access();
+        //    DataTable dt = ds.SelectData(q);
+        //    int id_minstry =(int) dt.Rows[0][0];
+        //    ds.open_connection();
+        //    ds.EX_Non_Query("insert into tb_desire (id_graduate,id_vacancy,des_order) values('"+id_grudat+"','"+id_minstry+"','"+desorder+"')");
+        //    ds.close_connection();
+        //        return dt;
+        // }
+        public void Insert_To_Desire(int id_vacancy, string vacancy_type, int id_grudat, int desorder)
         {
+           // string q = "select id_ministry from tb_ministry where ministry_name='" + minstryname + "'";
             Data_Access ds = new Data_Access();
-            DataTable dt = new DataTable();
-            for (int i = 0; i < Order.Rows.Count; i++)
-            {
-                int x = (int)order.Rows[i][0];
-                for (int j = 1; j < 6; j++)
-                {
-                string q = "select id_vacancy from tb_desire where id_graduate='" + x + "' and des_order='" + j + "'";
-                var x1 =  ds.SelectData(q);
-                 var s = ds.SelectData("select vacancy_count from tb_vacancy where id_vacancy='"+x1.Rows[0][0]+"'");
-                    var x2 = ds.SelectData("select * from tb_result where id_ministry='" + x1 + "'");
-                    if (x2.Rows.Count <(int) s.Rows[0][0])
-                    {
-                        
-                    }
-                }
-
-            }
-
-        }
-
-        public DataTable Insert_To_Desire(string minstryname,int id_grudat,int desorder)
-        {
-            string q = "select id_ministry from tb_ministry where ministry_name='" + minstryname + "'";
-            Data_Access ds = new Data_Access();
-            DataTable dt = ds.SelectData(q);
-            int id_minstry =(int) dt.Rows[0][0];
+          //  DataTable dt = ds.SelectData(q);
+         //   int id_minstry = (int)dt.Rows[0][0];
             ds.open_connection();
-            ds.EX_Non_Query("insert into tb_desire (id_graduate,id_vacancy,des_order) values('"+id_grudat+"','"+id_minstry+"','"+desorder+"')");
+            ds.EX_Non_Query("insert into tb_desire (id_graduate,id_vacancy,des_order) values('" + id_grudat + "'," + id_vacancy + ",'" + desorder + "')");
             ds.close_connection();
-                return dt;
+           
         }
-        public void insert_To_Result( )
+
+public void insert_To_Result( )
         {
             
             int id_gradute = 0;

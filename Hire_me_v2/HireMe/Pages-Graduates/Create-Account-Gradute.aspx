@@ -47,8 +47,16 @@
                         <div class="colume1">
                                <div class="post-login">
                                    <span class="icon"><i class="fas fa-user"></i></span>
-                                   <span class="title-input">الاسم </span>
-                                   <asp:TextBox ID="name_gradute" CssClass="input" AutoCompleteType="Disabled" runat="server"></asp:TextBox>                            
+                                   <span class="title-input">الأسم الأول</span>
+                                   <asp:TextBox ID="first_name_gradute" CssClass="input" AutoCompleteType="Disabled" runat="server"></asp:TextBox>                            
+                                   <span class="span-bottom"></span>
+                               </div>
+                               <br />
+
+                             <div class="post-login">
+                                   <span class="icon"><i class="fas fa-user"></i></span>
+                                   <span class="title-input">أسم العائلة</span>
+                                   <asp:TextBox ID="last_name_gradute" CssClass="input" AutoCompleteType="Disabled" runat="server"></asp:TextBox>                            
                                    <span class="span-bottom"></span>
                                </div>
                                <br />
@@ -72,6 +80,14 @@
                          </div>
 
                         <div class="colume2">
+
+                             <div class="post-login">
+                                <span class="icon"><i class="fas fa-lock"></i></span>
+                                <span class="title-input">رقم الوطني</span>
+                                <asp:TextBox ID="id_number_gradute" CssClass="input" TextMode="Password" AutoCompleteType="Disabled" MaxLength="20" runat="server"></asp:TextBox>                                
+                                <span class="span-bottom"></span>
+                            </div>
+
                                <div class="post-login">
                                    <span class="icon"><i class="far fa-calendar-alt"></i></span>
                                    <span class="title-input">تاريخ الولادة </span>
@@ -86,11 +102,22 @@
                                    <asp:TextBox ID="phone_gradute" CssClass="input" TextMode="Number" AutoCompleteType="Disabled" MaxLength="10" runat="server"></asp:TextBox>                               
                                    <span class="span-bottom"></span>
                                </div>
+
+                               <div class="post-login">
+                                   <span class="icon"><i class="fas fa-phone"></i></span>
+                                   <span class="title-input">محافظة </span>
+                                   <asp:DropDownList ID="DDL_country_gradute" CssClass="drop_level" runat="server">
+                                       <asp:ListItem>دمشق</asp:ListItem>
+                                       <asp:ListItem>حلب</asp:ListItem>
+                                       <asp:ListItem>حمص</asp:ListItem>
+                                   </asp:DropDownList>
+                               </div> 
+
                          </div>
                     </div>
 
                     <br />
-                    <h3 class="title-login" style="margin-top:35%;"><i class="fa fa-chevron-left icon" ></i>  المستوى التعليمي </h3>  
+                    <h3 class="title-login" style="margin-top:55%;"><i class="fa fa-chevron-left icon" ></i>  المستوى التعليمي </h3>  
 
 
                     <div class="post-document">
@@ -102,6 +129,15 @@
                                 <span class="span-bottom"></span>
                             </div>
                             <br />
+
+                             <div class="post-login">
+                                <span class="icon"><i class="fas fa-th-list"></i></span>
+                                <span class="title-input">المعدل </span>
+                                <asp:TextBox ID="avg_gradute" CssClass="input" AutoCompleteType="Disabled" runat="server"></asp:TextBox>                            
+                                <span class="span-bottom"></span>
+                            </div>
+                            <br />
+
                         </div>
 
                         <div class="colume2">
@@ -115,7 +151,7 @@
                     </div>
 
                     <br />
-                    <h3 class="title-login" style="margin-top:11%;"><i class="fa fa-chevron-left icon" ></i>  حساب الكتروني جديد </h3>  
+                    <h3 class="title-login" style="margin-top:25%;"><i class="fa fa-chevron-left icon" ></i>  حساب الكتروني جديد </h3>  
 
                     <div class="post-document">
                         <div class="colume1">
