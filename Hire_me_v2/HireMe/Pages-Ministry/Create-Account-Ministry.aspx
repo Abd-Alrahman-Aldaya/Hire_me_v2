@@ -8,10 +8,33 @@
 
     <title>Create-Account-Ministry</title>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a703fafbc0c1e4b97d5448774ee9afd5b7ef2258
     <link href="CSS/Style1-Ministry.css" rel="stylesheet" />
     <link href="CSS/StyleMob1-M.css" rel="stylesheet" media="screen and (max-width:780px)" />
     <link href="CSS/StyleMob2-M.css" rel="stylesheet" media="screen and (max-width:580px)" />
     <link href="CSS/StyleMob3-M.css" rel="stylesheet" media="screen and (max-width:380px)" />
+<<<<<<< HEAD
+=======
+
+
+
+    <link href="../Css/AhmedBasic%20-%20Copy.css" rel="stylesheet" />
+
+    <link href="../Css/Style-Ahmed.css" rel="stylesheet" />
+    <link href="../Css/StyleMob1.css" rel="stylesheet" media="screen and (max-width:780px)" />
+    <link href="../Css/StyleMob2.css" rel="stylesheet" media="screen and (max-width:580px)" />
+    <link href="../Css/StyleMob3.css" rel="stylesheet" media="screen and (max-width:380px)" />
+
+
+   <link href="CSS/Style1-Ahmed.css" rel="stylesheet" />
+    <link href="CSS/StyleMob1.css" rel="stylesheet" media="screen and (max-width:780px)" />
+    <link href="CSS/StyleMob2.css" rel="stylesheet" media="screen and (max-width:580px)" />
+    <link href="CSS/StyleMob3.css" rel="stylesheet" media="screen and (max-width:380px)" />
+
+>>>>>>> a703fafbc0c1e4b97d5448774ee9afd5b7ef2258
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />

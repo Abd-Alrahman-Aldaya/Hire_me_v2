@@ -113,8 +113,10 @@
     <Content Include="HireMe\Pages-Ministry\Sign-in-Ministry.aspx" />
     <Content Include="HireMe\Pages-Ministry\Update-Condition.aspx" />
     <Content Include="HireMe\Pages-Ministry\Update-Vacancy.aspx" />
+    <Content Include="HireMe\Pages-Universities\check_gradute.aspx" />
     <Content Include="HireMe\Pages-Universities\create account university.aspx" />
     <Content Include="HireMe\Pages-Universities\information input.aspx" />
+    <Content Include="HireMe\Pages-Universities\send message.aspx" />
     <Content Include="HireMe\tarek\css\animationn.css" />
     <Content Include="HireMe\tarek\css\bootstrap.min.css" />
     <Content Include="HireMe\tarek\css\media.css" />
@@ -220,6 +222,13 @@
     <Compile Include="HireMe\Pages-Ministry\Update-Vacancy.aspx.designer.cs">
       <DependentUpon>Update-Vacancy.aspx</DependentUpon>
     </Compile>
+    <Compile Include="HireMe\Pages-Universities\check_gradute.aspx.cs">
+      <DependentUpon>check_gradute.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HireMe\Pages-Universities\check_gradute.aspx.designer.cs">
+      <DependentUpon>check_gradute.aspx</DependentUpon>
+    </Compile>
     <Compile Include="HireMe\Pages-Universities\create account university.aspx.cs">
       <DependentUpon>create account university.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -233,6 +242,13 @@
     </Compile>
     <Compile Include="HireMe\Pages-Universities\information input.aspx.designer.cs">
       <DependentUpon>information input.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HireMe\Pages-Universities\send message.aspx.cs">
+      <DependentUpon>send message.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HireMe\Pages-Universities\send message.aspx.designer.cs">
+      <DependentUpon>send message.aspx</DependentUpon>
     </Compile>
     <Compile Include="HireMe\test.aspx.cs">
       <DependentUpon>test.aspx</DependentUpon>
