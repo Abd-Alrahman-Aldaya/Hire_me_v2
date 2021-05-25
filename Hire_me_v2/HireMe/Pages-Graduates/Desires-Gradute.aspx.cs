@@ -10,7 +10,7 @@ namespace HireMe.Pages_Graduates
 {
     public partial class Desires_Gradute : System.Web.UI.Page
     {
-        
+        Data_Access das;
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -34,18 +34,30 @@ namespace HireMe.Pages_Graduates
             // desires_selected.DataValueField = desires_available.DataValueField
             ListItem ls = new ListItem(desires_available.SelectedItem.ToString(), desires_available.SelectedValue);
             desires_selected.Items.Add(ls);
-            Label2.Text = desires_available.SelectedValue;
-            Label1.Text = desires_selected.SelectedValue;
+          //  Label2.Text = desires_available.SelectedValue[0].ToString();
+          //  Label1.Text = desires_selected.SelectedValue[0].ToString();
 
                 
         }
         protected void function_btn_Remove_Desire(object sender, EventArgs e)
         {
-
+            desires_selected.Items.Clear();
         }
 
         protected void function_btn_sign_Desire(object sender, EventArgs e)
         {
+            das = new Data_Access();
+            string q=" ";
+            for (int i = 1; i <= desires_selected.Items.Count; i++)
+            {
+                q = "insert into tb_desire values (11," + desires_selected.Items[i].Value + "," + i + ")";
+                    
+                das.open_connection();
+                das.EX_Non_Query(q);
+                das.close_connection();
+            }
+          
+
 
         }
     }
