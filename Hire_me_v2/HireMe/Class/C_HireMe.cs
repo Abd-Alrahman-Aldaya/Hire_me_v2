@@ -102,8 +102,6 @@ public void insert_To_Result( )
                         ds.close_connection();
                         break;
                     }
-                
-
                 }
             }
         }

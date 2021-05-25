@@ -1,6 +1,6 @@
 ﻿@font-face {
     font-family: myFont;
-    src: url('/Font/GE_SS_Two_Bold.otf');
+    src: url('../../Font/GE_SS_Two_Bold.otf');
 }
 
 html{
@@ -8,7 +8,7 @@ html{
 }
 
 body {
-    background-image: url('/image/blue1.jpg');
+    background-image: url('../../image/blue1.jpg');
     color: #2d2e2e;
     font-size: 90%;
     font-family: myFont;
@@ -76,7 +76,7 @@ a:hover, a:active {
 }
 
 .top-Content {
-    background-image: url('/image/white4.jpg');
+    background-image: url('../../image/white4.jpg');
     padding: 3.28%;
     border-radius: 5px;
     -webkit-border-radius: 5px;

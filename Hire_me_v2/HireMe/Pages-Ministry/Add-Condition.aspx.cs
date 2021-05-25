@@ -11,10 +11,10 @@ namespace HireMe.Pages_Ministry
             var vacancy_name =da.SelectData("select id_vacancy,vacancy_name from tb_vacancy");
             if (!IsPostBack)
             {
-            type_specialization_for_cond.DataSource = vacancy_name;
-            type_specialization_for_cond.DataTextField = "vacancy_name";
-            type_specialization_for_cond.DataValueField = "id_vacancy";
-            type_specialization_for_cond.DataBind();
+                type_specialization_for_cond.DataSource = vacancy_name;
+                type_specialization_for_cond.DataTextField = "vacancy_name";
+                type_specialization_for_cond.DataValueField = "id_vacancy";
+                type_specialization_for_cond.DataBind();
             }
         }
 

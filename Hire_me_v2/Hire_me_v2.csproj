@@ -84,8 +84,6 @@
     <Content Include="HireMe\Font\fontawesome-webfont.svg" />
     <Content Include="HireMe\Font\glyphicons-halflings-regular.svg" />
     <Content Include="HireMe\Font\index.html" />
-    <Content Include="HireMe\HTML\Create-Account-ministry.html" />
-    <Content Include="HireMe\HTML\Sign-in-ministry.html" />
     <Content Include="HireMe\image\blue1.jpg" />
     <Content Include="HireMe\image\casing.jpg" />
     <Content Include="HireMe\image\logo-hire-me.png" />
@@ -99,7 +97,6 @@
     <Content Include="HireMe\Pages-Admin\edite ministry.aspx" />
     <Content Include="HireMe\Pages-Admin\page-admin.aspx" />
     <Content Include="HireMe\Pages-Graduates\Create-Account-Gradute.aspx" />
-    <Content Include="HireMe\Pages-Graduates\CSS\Style1-Ahmed.css" />
     <Content Include="HireMe\Pages-Graduates\CSS\Style1-Gradute.css" />
     <Content Include="HireMe\Pages-Graduates\Desires-Gradute.aspx" />
     <Content Include="HireMe\Pages-Graduates\result display.aspx" />
@@ -308,6 +305,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="HireMe\HTML\" />
     <Folder Include="HireMe\tarek\page asp\" />
   </ItemGroup>
   <PropertyGroup>

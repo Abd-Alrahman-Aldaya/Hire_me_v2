@@ -34,9 +34,9 @@
             <div class="mainContent">
                 <section class="top-Content" dir="rtl" >
 
-                    <header>
-                       <h1 class="title-post">اختيار الرغبات</h1>
-                   </header>                
+                     <header>
+                        <h1 class="title-post">اختيار الرغبات</h1>
+                     </header>                
 
                      <div class="post-document">
 
@@ -53,7 +53,7 @@
                          <br /> 
                          <br /> 
 
-                         <h3 class="title-login">رغبات التي تم اختيارها </h3>
+                         <h3 class="title-login"><i class="fa fa-chevron-left icon" ></i>رغبات التي تم اختيارها </h3>
 
                          <asp:DropDownList ID="desires_selected" CssClass="drop-desire" runat="server"></asp:DropDownList>
 
@@ -62,11 +62,12 @@
                          <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
                          <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
                          <br />
-                         <button runat="server" class="button" id="btn_sign_desire" onserverclick="function_btn_sign_Desire" style="float:right;margin-right:20%;" ><i class="fas fa-angle-double-down icon-btn"></i> تسجيل</button>
+
+                         <div class="btn">
+                             <button runat="server" class="button" id="btn_sign_desire" onserverclick="function_btn_sign_Desire"><i class="fas fa-angle-double-down icon-btn"></i> تسجيل</button>
+                         </div>
+
                      </div>
-
-
-                        
 
                 </section>
             </div>
@@ -74,7 +75,7 @@
             <!--FOOTER-->
             <footer class="footer">
                 <div class="post-footer">
-                    <p class="title-footer">جميع lkfdhlحقوق محفوظة لموقع مفاضلة المهندسين الالكترونية - 2021</p>
+                    <p class="title-footer">جميع حقوق محفوظة لموقع مفاضلة المهندسين الالكترونية - 2021</p>
                 </div>
             </footer>
 

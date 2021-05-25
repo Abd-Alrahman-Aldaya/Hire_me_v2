@@ -138,9 +138,9 @@ a {
     border-bottom: 3px solid #2d2e2e;
 }
 
-    .input:focus {
-        outline: none;
-    }
+.input:focus {
+    outline: none;
+}
 
 section > div {
     position: relative;

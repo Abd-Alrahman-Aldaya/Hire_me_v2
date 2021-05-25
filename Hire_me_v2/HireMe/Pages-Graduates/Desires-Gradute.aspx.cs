@@ -29,7 +29,7 @@ namespace HireMe.Pages_Graduates
 
         protected void function_btn_Add_Desire(object sender, EventArgs e)
         {
-              // desires_selected.Items.Add(new ListItem(desires_available.SelectedItem.ToString()));
+            // desires_selected.Items.Add(new ListItem(desires_available.SelectedItem.ToString()));
             // desires_selected.DataTextField = desires_available.DataTextField;
             // desires_selected.DataValueField = desires_available.DataValueField
             ListItem ls = new ListItem(desires_available.SelectedItem.ToString(), desires_available.SelectedValue);
