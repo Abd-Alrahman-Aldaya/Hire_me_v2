@@ -9,7 +9,7 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form_" runat="server">
         <div>
              <asp:Label ID="Label6" runat="server" Text="الرقم الوطني"></asp:Label>
             <asp:Label ID="lab_id_number_grdute" runat="server" Text=": "></asp:Label>
