@@ -16,8 +16,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 </head>
+<<<<<<< HEAD
 <body class="body">
     <form id="form_Check_Gradute" runat="server">
+=======
+<body>
+    <form id="form_" runat="server">
+>>>>>>> bb902f33b0f3ee5c836e8caf111270bff67581c6
         <div>
 
               <!--HEADER-->

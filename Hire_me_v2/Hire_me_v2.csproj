@@ -102,6 +102,7 @@
     <Content Include="HireMe\Pages-Graduates\Desires-Gradute.aspx" />
     <Content Include="HireMe\Pages-Graduates\recive_message.aspx" />
     <Content Include="HireMe\Pages-Graduates\result display.aspx" />
+    <Content Include="HireMe\Pages-Graduates\Result-Gradute.aspx" />
     <Content Include="HireMe\Pages-Ministry\Add-Condition.aspx" />
     <Content Include="HireMe\Pages-Ministry\Add-Vacancy.aspx" />
     <Content Include="HireMe\Pages-Ministry\All-View.aspx" />
@@ -187,6 +188,13 @@
     </Compile>
     <Compile Include="HireMe\Pages-Graduates\result display.aspx.designer.cs">
       <DependentUpon>result display.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HireMe\Pages-Graduates\Result-Gradute.aspx.cs">
+      <DependentUpon>Result-Gradute.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HireMe\Pages-Graduates\Result-Gradute.aspx.designer.cs">
+      <DependentUpon>Result-Gradute.aspx</DependentUpon>
     </Compile>
     <Compile Include="HireMe\Pages-Ministry\Add-Condition.aspx.cs">
       <DependentUpon>Add-Condition.aspx</DependentUpon>
