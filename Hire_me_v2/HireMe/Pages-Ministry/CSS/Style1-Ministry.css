@@ -97,6 +97,27 @@ a {
     font-size: 20px;
 }
 
+.info-name{
+    width:30%;
+    font-size:20px;
+    float:right;
+}
+
+.info-grad {
+    width: 40%;
+    padding-right: 10%;
+    display: block;
+    font-size: 20px;
+    float: right;
+}
+
+.check-accept {
+    width: 5%;
+    font-size: 20px;
+    float: left;
+    padding-bottom: 5%;
+}
+
 .title-post {
     text-align: center;
     font-size: 60px;

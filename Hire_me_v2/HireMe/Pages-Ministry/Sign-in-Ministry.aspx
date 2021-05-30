@@ -6,7 +6,7 @@
 
 <head runat="server">
 
-    <title>Sign-in-Ministry</title>
+    <title>Sign-in</title>
 
     <link href="CSS/Style1-Ministry.css" rel="stylesheet" />
     <link href="CSS/StyleMob1-M.css" rel="stylesheet" media="screen and (max-width:780px)" />
@@ -40,17 +40,17 @@
                 <section class="top-Content" dir="rtl">
             
                    <header>
-                       <h1 class="title-post">خاص بالوزارات</h1>
+                       <h1 class="title-post">تسجيل الدخول </h1>
                    </header> 
             
-                   <h3 class="title-login"><i class="fa fa-chevron-left icon" ></i>  تسجيل الدخول </h3>  
+                   <h3 class="title-login"><i class="fa fa-chevron-left icon" ></i></h3>  
                     
                     <section class="post-document">
 
                         <div class="post-login">
                             <span class="icon"><i class="fas fa-envelope"></i></span>
                             <span class="title-input">البريد الالكتروني</span>
-                            <asp:TextBox ID="email_ministry" CssClass="input" TextMode="Email" AutoCompleteType="Disabled" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="Login_Email" CssClass="input" TextMode="Email" AutoCompleteType="Disabled" runat="server"></asp:TextBox>
                             <%--<input type="text" class="input" id="email-ministry" placeholder="e-mail" autocomplete="off" />--%>
                             <span class="span-bottom"></span>
                         </div>
@@ -60,7 +60,7 @@
                         <div class="post-login">
                             <span class="icon"><i class="fas fa-lock"></i></span>
                             <span class="title-input">كلمة المرور</span>
-                            <asp:TextBox ID="password_ministry" CssClass="input" TextMode="Password" AutoCompleteType="Disabled" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="Login_Password" CssClass="input" TextMode="Password" AutoCompleteType="Disabled" runat="server"></asp:TextBox>
                             <%--<input type="password" runat="server" class="input" id="pass_ministry" placeholder="password" autocomplete="off" maxlength="30"  />--%>
                             <span class="span-bottom"></span>                            
                         </div>
@@ -70,20 +70,21 @@
 
                             <%--<i class="fas fa-sign-in-alt icon-btn"></i><asp:Button ID="btn_sign_in" CssClass="button" runat="server"  Text="تسجيل"/>--%>
                             <button runat="server" id="btn_sign_in" class="button" onserverclick="function_SignUp" title="Sign_in"><i class="fas fa-sign-in-alt icon-btn"></i>تسجيل</button>
-
-                        </div>
-                    </section>
+ 
+                    </section>           
+                    <!--
             
                     <h3 class="title-login"><i class="fa fa-chevron-left icon" ></i>  إنشاء حساب </h3>
             
                     <div class="post-document">
+                        
                         <p> هل تريد إنشاء حساب <i class="fa fa-question-circle icon" style=""></i></p>
                         <div class="btn">
                             <%--<asp:Button ID="btn_create" CssClass="button" runat="server" Text=" إنشاء " /><i class="fas fa-plus icon-btn"></i>--%>
                             <button runat="server" id="btn_to_create" class="button" onserverclick="function_Create_Account" title="Creare_Account" ><i class="fas fa-plus icon-btn"></i> إنشاء </button>
                         </div>
                     </div>
-            
+            -->
                 </section>
             </div>
 
@@ -100,6 +101,13 @@
                         </p>
                     </article>
                 </aside>
+                </div>
+             <footer class="footer">
+                <div class="post-footer">
+                    <p class="title-footer">جميع حقوق محفوظة لموقع مفاضلة المهندسين الالكترونية - 2021</p>
+                </div>
+            </footer>
+                <!--
                 <aside>
                     <article class="sidebar1" dir="rtl">
                         <h2 class="title-side">إنشاء حساب</h2>
@@ -121,14 +129,15 @@
                     </article>
                 </aside>
             </div>
-
+            -->
             <!--FOOTER-->
+                <!--
             <footer class="footer">
                 <div class="post-footer">
                     <p class="title-footer">جميع حقوق محفوظة لموقع مفاضلة المهندسين الالكترونية - 2021</p>
                 </div>
             </footer>
-
+              -->
         </div>
     </form>
 

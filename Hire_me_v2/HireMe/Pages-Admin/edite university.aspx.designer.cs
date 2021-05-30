@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace HireMe.Pages_ministry {
+namespace Hire_me_v2.HireMe.Pages_Admin {
     
     
-    public partial class ادارة_الوزارة {
+    public partial class edite_university {
         
         /// <summary>
         /// form1 control.
@@ -22,13 +22,13 @@ namespace HireMe.Pages_ministry {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// DropDown_ministry control.
+        /// DropDown_university control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDown_ministry;
+        protected global::System.Web.UI.WebControls.DropDownList DropDown_university;
         
         /// <summary>
         /// Label1 control.
@@ -40,13 +40,13 @@ namespace HireMe.Pages_ministry {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// new_name_ministrty control.
+        /// new_name_university control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox new_name_ministrty;
+        protected global::System.Web.UI.WebControls.TextBox new_name_university;
         
         /// <summary>
         /// btn_remove control.
