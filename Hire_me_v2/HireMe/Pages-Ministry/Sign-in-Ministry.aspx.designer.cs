@@ -22,22 +22,22 @@ namespace HireMe.Pages_Ministry {
         protected global::System.Web.UI.HtmlControls.HtmlForm form_sign_in;
         
         /// <summary>
-        /// email_ministry control.
+        /// Login_Email control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox email_ministry;
+        protected global::System.Web.UI.WebControls.TextBox Login_Email;
         
         /// <summary>
-        /// password_ministry control.
+        /// Login_Password control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox password_ministry;
+        protected global::System.Web.UI.WebControls.TextBox Login_Password;
         
         /// <summary>
         /// btn_sign_in control.

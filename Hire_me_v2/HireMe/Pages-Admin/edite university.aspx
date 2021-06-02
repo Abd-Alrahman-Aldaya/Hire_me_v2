@@ -1,11 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="edite ministry.aspx.cs" Inherits="HireMe.Pages_ministry.ادارة_الوزارة" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="edite university.aspx.cs" Inherits="Hire_me_v2.HireMe.Pages_Admin.edite_university" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 
-    <title>ادارة الوزارات</title>
+    <title>ادارة الجامعات</title>
     <meta charset="utf-8" content="width=device-width, initial-scale=1"/>
      <link href="../tarek/fontawesome/css/font-awesome.css" rel="stylesheet" />
     <link href="../tarek/css/bootstrap.min.css" rel="stylesheet" />
@@ -28,13 +28,13 @@
                 <span class="span2"> H I R E_ M E</span>
                 
             </div><br /><br /><br />       
-              <h1 class="updateministry text-center">تعديل الوزارات</h1><br /><br /><br /><br />
+              <h1 class="updateministry text-center">تعديل الجامعات</h1><br /><br /><br /><br />
               <div class="col-xs-12 text-center" dir="rtl">
                 <br />
-                  <label class="upminisrty">الوزارة</label><br />
-                  <asp:DropDownList ID="DropDown_ministry" runat="server" class="dropministry form-control" DataTextField="ministry_name" DataValueField="ministry_name" AutoPostBack="True"></asp:DropDownList><br />
+                  <label class="upminisrty">الجامعة</label><br />
+                  <asp:DropDownList ID="DropDown_university" runat="server" class="dropministry form-control" DataTextField="university_name" DataValueField="university_name"></asp:DropDownList><br />
                   <asp:Label ID="Label1" runat="server" class="upminisrty" Text="الاسم الجديد"></asp:Label><br />
-                  <asp:TextBox ID="new_name_ministrty" runat="server"></asp:TextBox><br />
+                  <asp:TextBox ID="new_name_university" runat="server"></asp:TextBox><br />
               </div><br /><br /><br /><br /><br /><br />
              
               <div class="col-xs-4">
@@ -55,10 +55,8 @@
     <script src="../tarek/java%20script/jquery.js"></script>
    <script src="../tarek/java%20script/java.js"></script>
     <script>
-       
-    </script>
+
+</script>
 </body>
 
 </html>
-
-

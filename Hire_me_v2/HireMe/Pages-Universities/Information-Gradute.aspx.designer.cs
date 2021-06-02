@@ -13,13 +13,29 @@ namespace Hire_me_v2.HireMe.Pages_Universities {
     public partial class check_gradute {
         
         /// <summary>
+<<<<<<< HEAD:Hire_me_v2/HireMe/Pages-Universities/Information-Gradute.aspx.designer.cs
         /// form_Information_Gradute control.
+=======
+<<<<<<< HEAD
+        /// form_Check_Gradute control.
+=======
+        /// form_ control.
+>>>>>>> bb902f33b0f3ee5c836e8caf111270bff67581c6
+>>>>>>> 42655c5c0bd7dd4de0231f05473f30c431730b26:Hire_me_v2/HireMe/Pages-Universities/check_gradute.aspx.designer.cs
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+<<<<<<< HEAD:Hire_me_v2/HireMe/Pages-Universities/Information-Gradute.aspx.designer.cs
         protected global::System.Web.UI.HtmlControls.HtmlForm form_Information_Gradute;
+=======
+<<<<<<< HEAD
+        protected global::System.Web.UI.HtmlControls.HtmlForm form_Check_Gradute;
+=======
+        protected global::System.Web.UI.HtmlControls.HtmlForm form_;
+>>>>>>> bb902f33b0f3ee5c836e8caf111270bff67581c6
+>>>>>>> 42655c5c0bd7dd4de0231f05473f30c431730b26:Hire_me_v2/HireMe/Pages-Universities/check_gradute.aspx.designer.cs
         
         /// <summary>
         /// Label6 control.
@@ -31,15 +47,6 @@ namespace Hire_me_v2.HireMe.Pages_Universities {
         protected global::System.Web.UI.WebControls.Label Label6;
         
         /// <summary>
-        /// lab_id_number_grdute control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lab_id_number_grdute;
-        
-        /// <summary>
         /// Label1 control.
         /// </summary>
         /// <remarks>
@@ -47,15 +54,6 @@ namespace Hire_me_v2.HireMe.Pages_Universities {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label1;
-        
-        /// <summary>
-        /// lab_name_gradute control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lab_name_gradute;
         
         /// <summary>
         /// Label2 control.
@@ -67,15 +65,6 @@ namespace Hire_me_v2.HireMe.Pages_Universities {
         protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// lab_last_gradute control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lab_last_gradute;
-        
-        /// <summary>
         /// Label3 control.
         /// </summary>
         /// <remarks>
@@ -83,15 +72,6 @@ namespace Hire_me_v2.HireMe.Pages_Universities {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label3;
-        
-        /// <summary>
-        /// lab_father_name control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lab_father_name;
         
         /// <summary>
         /// Label4 control.
@@ -103,15 +83,6 @@ namespace Hire_me_v2.HireMe.Pages_Universities {
         protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
-        /// lab_mather_name control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lab_mather_name;
-        
-        /// <summary>
         /// Label5 control.
         /// </summary>
         /// <remarks>
@@ -119,15 +90,6 @@ namespace Hire_me_v2.HireMe.Pages_Universities {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label5;
-        
-        /// <summary>
-        /// lab_avg control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lab_avg;
         
         /// <summary>
         /// Label7 control.
@@ -139,15 +101,6 @@ namespace Hire_me_v2.HireMe.Pages_Universities {
         protected global::System.Web.UI.WebControls.Label Label7;
         
         /// <summary>
-        /// lab_date_gra control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lab_date_gra;
-        
-        /// <summary>
         /// Label8 control.
         /// </summary>
         /// <remarks>
@@ -157,6 +110,78 @@ namespace Hire_me_v2.HireMe.Pages_Universities {
         protected global::System.Web.UI.WebControls.Label Label8;
         
         /// <summary>
+        /// Label9 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label9;
+        
+        /// <summary>
+        /// lab_id_number_grdute control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lab_id_number_grdute;
+        
+        /// <summary>
+        /// lab_name_gradute control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lab_name_gradute;
+        
+        /// <summary>
+        /// lab_last_gradute control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lab_last_gradute;
+        
+        /// <summary>
+        /// lab_father_name control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lab_father_name;
+        
+        /// <summary>
+        /// lab_mather_name control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lab_mather_name;
+        
+        /// <summary>
+        /// lab_avg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lab_avg;
+        
+        /// <summary>
+        /// lab_date_gra control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lab_date_gra;
+        
+        /// <summary>
         /// lab_prof control.
         /// </summary>
         /// <remarks>
@@ -164,6 +189,96 @@ namespace Hire_me_v2.HireMe.Pages_Universities {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lab_prof;
+        
+        /// <summary>
+        /// CheckBox_shd control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CheckBox_shd;
+        
+        /// <summary>
+        /// CheckBox_id_num control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CheckBox_id_num;
+        
+        /// <summary>
+        /// CheckBox_FNmae control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CheckBox_FNmae;
+        
+        /// <summary>
+        /// CheckBox_LNmae control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CheckBox_LNmae;
+        
+        /// <summary>
+        /// CheckBox_fa_name control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CheckBox_fa_name;
+        
+        /// <summary>
+        /// CheckBox_mather_name control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CheckBox_mather_name;
+        
+        /// <summary>
+        /// CheckBox_avg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CheckBox_avg;
+        
+        /// <summary>
+        /// CheckBox_porn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CheckBox_porn;
+        
+        /// <summary>
+        /// CheckBox_prof control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CheckBox_prof;
+        
+        /// <summary>
+        /// lab_error control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lab_error;
         
         /// <summary>
         /// btn_yes control.

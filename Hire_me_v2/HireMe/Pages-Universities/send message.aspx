@@ -10,8 +10,9 @@
     <form id="form_Send_Message" runat="server">
         <div>
             <asp:Label ID="Label1" runat="server" Text="اكتب الرسالة "></asp:Label>
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-            <asp:Button ID="Button1" runat="server" Text="ارسال " />
+            <asp:TextBox ID="txt_message" runat="server"></asp:TextBox>
+            <asp:Button ID="Button1" runat="server" Text="ارسال " OnClick="Button1_Click" />
+
             
         </div>
         
