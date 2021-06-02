@@ -1,17 +1,47 @@
 ﻿
 
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="check_gradute.aspx.cs" Inherits="Hire_me_v2.HireMe.Pages_Universities.check_gradute" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Information-Gradute.aspx.cs" Inherits="Hire_me_v2.HireMe.Pages_Universities.check_gradute" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head runat="server">
-    <title></title>
+
+    <title>Information-Gradute</title>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 </head>
+
 <body>
-    <form id="form_" runat="server">
+
+    <form id="form_Information_Gradute" runat="server">
         <div>
-             <asp:Label ID="Label6" runat="server" Text="الرقم الوطني"></asp:Label>
+
+            <!--HEADER-->
+            <header class="mainHeader" dir="rtl">
+                <img src="../image/casing.jpg" width="900"/>
+                <nav><ul>
+                    <li><a href="#"> <i class="fa fa-home"></i> الصفحة الرئيسية </a></li>
+                    <li><a href="#"> <i class="fas fa-list-alt"></i> قائمة </a></li>
+                    <li><a href="#"> <i class="fa fa-question-circle"></i> حول </a></li>
+                    <li><a href="#"><i class="fas fa-phone"></i> اتصل بنا </a></li>  
+                </ul></nav>
+            </header>
+
+            <!--DOCUMENT-->
+            <div class="mainContent">
+                <section class="top-Content" dir="rtl">
+
+                    <div class=""></div>
+
+                </section>
+            </div>
+
+            <asp:Label ID="Label6" runat="server" Text="الرقم الوطني"></asp:Label>
             <asp:Label ID="lab_id_number_grdute" runat="server" Text=": "></asp:Label>
             <br />
             <asp:Label ID="Label1" runat="server" Text="الاسم الاول"></asp:Label>

@@ -13,13 +13,13 @@ namespace Hire_me_v2.HireMe.Pages_Universities {
     public partial class check_gradute {
         
         /// <summary>
-        /// form_ control.
+        /// form_Information_Gradute control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form_;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form_Information_Gradute;
         
         /// <summary>
         /// Label6 control.

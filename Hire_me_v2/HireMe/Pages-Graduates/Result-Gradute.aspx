@@ -37,13 +37,13 @@
                 <section class="top-Content" dir="rtl" >                    
 
                     <header>
-                       <h1 class="title-post">النتيجة</h1>
+                       <h1 class="title-post" style="border-bottom:none;">النتيجة</h1>
                    </header>
 
                     <div class="post-document">
 
                         <div class="post-login">
-                            <span class="icon"><i class="fab fa-resolving"></i></span>                        
+                            <span class="icon"></span>                        
                             <asp:TextBox ID="result_gradute" CssClass="input" Enabled="false" AutoCompleteType="Disabled" runat="server"></asp:TextBox>                            
                             <span class="span-bottom"></span>
                         </div>
