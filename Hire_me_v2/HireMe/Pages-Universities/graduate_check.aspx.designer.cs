@@ -13,29 +13,13 @@ namespace Hire_me_v2.HireMe.Pages_Universities {
     public partial class check_gradute {
         
         /// <summary>
-<<<<<<< HEAD:Hire_me_v2/HireMe/Pages-Universities/Information-Gradute.aspx.designer.cs
-        /// form_Information_Gradute control.
-=======
-<<<<<<< HEAD
         /// form_Check_Gradute control.
-=======
-        /// form_ control.
->>>>>>> bb902f33b0f3ee5c836e8caf111270bff67581c6
->>>>>>> 42655c5c0bd7dd4de0231f05473f30c431730b26:Hire_me_v2/HireMe/Pages-Universities/check_gradute.aspx.designer.cs
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< HEAD:Hire_me_v2/HireMe/Pages-Universities/Information-Gradute.aspx.designer.cs
-        protected global::System.Web.UI.HtmlControls.HtmlForm form_Information_Gradute;
-=======
-<<<<<<< HEAD
         protected global::System.Web.UI.HtmlControls.HtmlForm form_Check_Gradute;
-=======
-        protected global::System.Web.UI.HtmlControls.HtmlForm form_;
->>>>>>> bb902f33b0f3ee5c836e8caf111270bff67581c6
->>>>>>> 42655c5c0bd7dd4de0231f05473f30c431730b26:Hire_me_v2/HireMe/Pages-Universities/check_gradute.aspx.designer.cs
         
         /// <summary>
         /// Label6 control.

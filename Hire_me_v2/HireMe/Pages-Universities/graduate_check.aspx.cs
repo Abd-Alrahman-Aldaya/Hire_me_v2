@@ -17,7 +17,7 @@ namespace Hire_me_v2.HireMe.Pages_Universities
         protected void Page_Load(object sender, EventArgs e)
         {
             das = new Data_Access();
-           var dt_spec_gra= das.SelectData("select * from tb_graduate where graduate_check=0");
+            var dt_spec_gra = das.SelectData("select * from tb_graduate where graduate_check = 0;");
             
             if (dt_spec_gra.Rows.Count == 0)
             {

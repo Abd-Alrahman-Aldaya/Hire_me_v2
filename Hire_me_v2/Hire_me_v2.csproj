@@ -116,7 +116,7 @@
     <Content Include="HireMe\Pages-Ministry\Sign-in-Ministry.aspx" />
     <Content Include="HireMe\Pages-Ministry\Update-Condition.aspx" />
     <Content Include="HireMe\Pages-Ministry\Update-Vacancy.aspx" />
-    <Content Include="HireMe\Pages-Universities\Information-Gradute.aspx" />
+    <Content Include="HireMe\Pages-Universities\graduate_check.aspx" />
     <Content Include="HireMe\Pages-Universities\create account university.aspx" />
     <Content Include="HireMe\Pages-Universities\information input.aspx" />
     <Content Include="HireMe\Pages-Universities\send message.aspx" />
@@ -245,12 +245,12 @@
     <Compile Include="HireMe\Pages-Ministry\Update-Vacancy.aspx.designer.cs">
       <DependentUpon>Update-Vacancy.aspx</DependentUpon>
     </Compile>
-    <Compile Include="HireMe\Pages-Universities\Information-Gradute.aspx.cs">
-      <DependentUpon>Information-Gradute.aspx</DependentUpon>
+    <Compile Include="HireMe\Pages-Universities\graduate_check.aspx.cs">
+      <DependentUpon>graduate_check.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="HireMe\Pages-Universities\Information-Gradute.aspx.designer.cs">
-      <DependentUpon>Information-Gradute.aspx</DependentUpon>
+    <Compile Include="HireMe\Pages-Universities\graduate_check.aspx.designer.cs">
+      <DependentUpon>graduate_check.aspx</DependentUpon>
     </Compile>
     <Compile Include="HireMe\Pages-Universities\create account university.aspx.cs">
       <DependentUpon>create account university.aspx</DependentUpon>

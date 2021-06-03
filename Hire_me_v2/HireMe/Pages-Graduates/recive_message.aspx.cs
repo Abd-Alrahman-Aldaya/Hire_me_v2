@@ -19,7 +19,7 @@ namespace Hire_me_v2.HireMe.Pages_Graduates
             id_graduate = 4;
             int x;
 
-            var dt_message = ds.SelectData("select * from tb_message where id_graduate=" + id_graduate + " and message_read=0;");
+            var dt_message = ds.SelectData("select * from tb_message where id_graduate=" + id_graduate + " and message_read = 0;");
             string a = dt_message.Rows[0][3].ToString();
             lab_message.Text = a;
             string Mdate = dt_message.Rows[0][4].ToString();

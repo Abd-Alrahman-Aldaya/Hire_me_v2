@@ -1,6 +1,6 @@
 ﻿
 
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Information-Gradute.aspx.cs" Inherits="Hire_me_v2.HireMe.Pages_Universities.check_gradute" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="graduate_check.aspx.cs" Inherits="Hire_me_v2.HireMe.Pages_Universities.check_gradute" %>
 
 <!DOCTYPE html>
 
@@ -8,39 +8,22 @@
 
 <head runat="server">
 
-<<<<<<< HEAD:Hire_me_v2/HireMe/Pages-Universities/Information-Gradute.aspx
-    <title>Information-Gradute</title>
-=======
     <title>Check-Gradute</title>
 
     <link href="../Pages-Ministry/CSS/Style1-Ministry.css" rel="stylesheet" />
->>>>>>> 42655c5c0bd7dd4de0231f05473f30c431730b26:Hire_me_v2/HireMe/Pages-Universities/check_gradute.aspx
+
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 </head>
-<<<<<<< HEAD:Hire_me_v2/HireMe/Pages-Universities/Information-Gradute.aspx
 
-<body>
-
-    <form id="form_Information_Gradute" runat="server">
+<body class="body">
+    <form id="form_Check_Gradute" runat="server">
         <div>
 
             <!--HEADER-->
-=======
-<<<<<<< HEAD
-<body class="body">
-    <form id="form_Check_Gradute" runat="server">
-=======
-<body>
-    <form id="form_" runat="server">
->>>>>>> bb902f33b0f3ee5c836e8caf111270bff67581c6
-        <div>
-
-              <!--HEADER-->
->>>>>>> 42655c5c0bd7dd4de0231f05473f30c431730b26:Hire_me_v2/HireMe/Pages-Universities/check_gradute.aspx
             <header class="mainHeader" dir="rtl">
                 <img src="../image/casing.jpg" width="900"/>
                 <nav><ul>
@@ -53,11 +36,7 @@
 
             <!--DOCUMENT-->
             <div class="mainContent">
-<<<<<<< HEAD:Hire_me_v2/HireMe/Pages-Universities/Information-Gradute.aspx
-                <section class="top-Content" dir="rtl">
 
-                    <div class=""></div>
-=======
                 <section class="top-Content" dir="rtl" >                    
 
                     <header>
@@ -87,22 +66,21 @@
                         </div>
                             
                         <div class="info-grad">
-                            <asp:Label ID="lab_id_number_grdute" runat="server" Text=": "></asp:Label>
-
+                            <asp:Label ID="lab_id_number_grdute" runat="server" Text=""></asp:Label>
                             <br />
-                            <asp:Label ID="lab_name_gradute" runat="server" Text=": "></asp:Label>
+                            <asp:Label ID="lab_name_gradute" runat="server" Text=""></asp:Label>
                             <br />
-                            <asp:Label ID="lab_last_gradute" runat="server" Text=":"></asp:Label>
+                            <asp:Label ID="lab_last_gradute" runat="server" Text=""></asp:Label>
                             <br />
-                            <asp:Label ID="lab_father_name" runat="server" Text="Label"></asp:Label>
+                            <asp:Label ID="lab_father_name" runat="server" Text=""></asp:Label>
                             <br />
-                            <asp:Label ID="lab_mather_name" runat="server" Text="Label"></asp:Label>
+                            <asp:Label ID="lab_mather_name" runat="server" Text=""></asp:Label>
                             <br />
-                            <asp:Label ID="lab_avg" runat="server" Text="Label"></asp:Label>
+                            <asp:Label ID="lab_avg" runat="server" Text=""></asp:Label>
                             <br />
-                            <asp:Label ID="lab_date_gra" runat="server" Text="Label"></asp:Label>
+                            <asp:Label ID="lab_date_gra" runat="server" Text=""></asp:Label>
                             <br />
-                            <asp:Label ID="lab_prof" runat="server" Text="Label"></asp:Label>
+                            <asp:Label ID="lab_prof" runat="server" Text=""></asp:Label>
                             <br />
                             <asp:CheckBox ID="CheckBox_shd" runat="server" />
                         </div>
@@ -140,41 +118,10 @@
                             <br />
                             <asp:Button CssClass="button" ID="btn_no" runat="server" Text="رفض" OnClick="btn_no_Click" />                            
                      </div>
->>>>>>> 42655c5c0bd7dd4de0231f05473f30c431730b26:Hire_me_v2/HireMe/Pages-Universities/check_gradute.aspx
 
                 </section>
             </div>
 
-<<<<<<< HEAD:Hire_me_v2/HireMe/Pages-Universities/Information-Gradute.aspx
-            <asp:Label ID="Label6" runat="server" Text="الرقم الوطني"></asp:Label>
-            <asp:Label ID="lab_id_number_grdute" runat="server" Text=": "></asp:Label>
-            <br />
-            <asp:Label ID="Label1" runat="server" Text="الاسم الاول"></asp:Label>
-            <asp:Label ID="lab_name_gradute" runat="server" Text=": "></asp:Label>
-            <br />
-             <asp:Label ID="Label2" runat="server" Text="اسم العائلة"></asp:Label>
-            <asp:Label ID="lab_last_gradute" runat="server" Text=":"></asp:Label>
-            <br />
-             <asp:Label ID="Label3" runat="server" Text="اسم الاب"></asp:Label>
-            <asp:Label ID="lab_father_name" runat="server" Text="Label"></asp:Label>
-            <br />
-             <asp:Label ID="Label4" runat="server" Text="اسم الام "></asp:Label>
-            <asp:Label ID="lab_mather_name" runat="server" Text="Label"></asp:Label>
-            <br /> 
-            <asp:Label ID="Label5" runat="server" Text="المعدل"></asp:Label>
-            <asp:Label ID="lab_avg" runat="server" Text="Label"></asp:Label>
-            <br />
-             <asp:Label ID="Label7" runat="server" Text="تاريخ الولادة "></asp:Label>
-            <asp:Label ID="lab_date_gra" runat="server" Text="Label"></asp:Label>
-            <br /> 
-            <asp:Label ID="Label8" runat="server" Text=" الاختصاص"></asp:Label>
-            <asp:Label ID="lab_prof" runat="server" Text="Label"></asp:Label>
-            <br />
-
-            <asp:Button ID="btn_yes" runat="server" Text="قبول" OnClick="btn_yes_Click" />
-             <asp:Button ID="btn_no" runat="server" Text="رفض" OnClick="btn_no_Click" />
-            <br />
-=======
             <!--SIDE-->
             <div class="mainSide">
                 <aside>
@@ -195,8 +142,6 @@
                 </div>
             </footer>
            
->>>>>>> 42655c5c0bd7dd4de0231f05473f30c431730b26:Hire_me_v2/HireMe/Pages-Universities/check_gradute.aspx
-
         </div>
     </form>
 </body>

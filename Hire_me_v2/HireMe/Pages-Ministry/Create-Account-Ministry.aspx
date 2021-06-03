@@ -8,33 +8,10 @@
 
     <title>Create-Account-Ministry</title>
 
-<<<<<<< HEAD
-=======
-
->>>>>>> a703fafbc0c1e4b97d5448774ee9afd5b7ef2258
     <link href="CSS/Style1-Ministry.css" rel="stylesheet" />
     <link href="CSS/StyleMob1-M.css" rel="stylesheet" media="screen and (max-width:780px)" />
     <link href="CSS/StyleMob2-M.css" rel="stylesheet" media="screen and (max-width:580px)" />
     <link href="CSS/StyleMob3-M.css" rel="stylesheet" media="screen and (max-width:380px)" />
-<<<<<<< HEAD
-=======
-
-
-
-    <link href="../Css/AhmedBasic%20-%20Copy.css" rel="stylesheet" />
-
-    <link href="../Css/Style-Ahmed.css" rel="stylesheet" />
-    <link href="../Css/StyleMob1.css" rel="stylesheet" media="screen and (max-width:780px)" />
-    <link href="../Css/StyleMob2.css" rel="stylesheet" media="screen and (max-width:580px)" />
-    <link href="../Css/StyleMob3.css" rel="stylesheet" media="screen and (max-width:380px)" />
-
-
-   <link href="CSS/Style1-Ahmed.css" rel="stylesheet" />
-    <link href="CSS/StyleMob1.css" rel="stylesheet" media="screen and (max-width:780px)" />
-    <link href="CSS/StyleMob2.css" rel="stylesheet" media="screen and (max-width:580px)" />
-    <link href="CSS/StyleMob3.css" rel="stylesheet" media="screen and (max-width:380px)" />
-
->>>>>>> a703fafbc0c1e4b97d5448774ee9afd5b7ef2258
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -74,8 +51,7 @@
                             <div class="post-login">
                                 <span class="icon"><i class="fas fa-user"></i></span>
                                 <span class="title-input">الأسم الوزارة</span>
-                                <asp:TextBox ID="name_ministry_new" CssClass="input" AutoCompleteType="Disabled" MaxLength="15" runat="server"></asp:TextBox>
-                                <%--<input type="text" class="input" id="name-ministry" placeholder="Name" autocomplete="off" maxlength="15">--%>
+                                <asp:TextBox ID="name_ministry_new" CssClass="input" AutoCompleteType="Disabled" MaxLength="15" runat="server"></asp:TextBox>                                
                                 <span class="span-bottom"></span>
                             </div>
                             <br/>
@@ -84,8 +60,7 @@
                             <div class="post-login">
                                 <span class="icon"><i class="fas fa-envelope"></i></span>
                                 <span class="title-input">البريد الالكتروني</span>
-                                <asp:TextBox ID="email_ministry_new" CssClass="input" TextMode="Email" AutoCompleteType="Disabled" runat="server"></asp:TextBox>
-                                <%--<input type="email" class="input" id="email-ministry" placeholder="e-mail" autocomplete="off">--%>
+                                <asp:TextBox ID="email_ministry_new" CssClass="input" TextMode="Email" AutoCompleteType="Disabled" runat="server"></asp:TextBox>                                
                                 <span class="span-bottom"></span>
                             </div>
                             <br/>
@@ -94,8 +69,7 @@
                             <div class="post-login">
                                 <span class="icon"><i class="fas fa-lock"></i></span>
                                 <span class="title-input">كلمة المرور</span>
-                                <asp:TextBox ID="pass_ministry_new" CssClass="input" TextMode="Password" AutoCompleteType="Disabled" MaxLength="30" runat="server"></asp:TextBox>
-                                <%--<input type="password" class="input" id="pass-ministry" placeholder="password" autocomplete="off" maxlength="30">--%>
+                                <asp:TextBox ID="pass_ministry_new" CssClass="input" TextMode="Password" AutoCompleteType="Disabled" MaxLength="30" runat="server"></asp:TextBox>                                
                                 <span class="span-bottom"></span>
                             </div>
                             <br/>
@@ -104,8 +78,7 @@
                             <div class="post-login">
                                 <span class="icon"><i class="fas fa-lock"></i></span>
                                 <span class="title-input">تأكيد كلمة المرور</span>
-                                <asp:TextBox ID="confirm_pass_ministry_new" CssClass="input" TextMode="Password" AutoCompleteType="Disabled" MaxLength="30" runat="server"></asp:TextBox>
-                                <%--<input type="password" class="input" id="confirm-pass-ministry" placeholder="confirm password" autocomplete="off" maxlength="30">--%>
+                                <asp:TextBox ID="confirm_pass_ministry_new" CssClass="input" TextMode="Password" AutoCompleteType="Disabled" MaxLength="30" runat="server"></asp:TextBox>                                
                                 <span class="span-bottom"></span>
                             </div>
                             <br/>
@@ -114,8 +87,7 @@
                             <div class="post-login">
                                 <span class="icon"><i class="fas fa-phone"></i></span>
                                 <span class="title-input">هاتف </span>
-                                <asp:TextBox ID="phone_ministry_new" CssClass="input" TextMode="Number" AutoCompleteType="Disabled" MaxLength="10" runat="server"></asp:TextBox>
-                                <%--<input type="number" class="input" id="phone-ministry" placeholder="phone" autocomplete="off" maxlength="7">--%>
+                                <asp:TextBox ID="phone_ministry_new" CssClass="input" TextMode="Number" AutoCompleteType="Disabled" MaxLength="10" runat="server"></asp:TextBox>                                
                                 <span class="span-bottom"></span>
                             </div>
 
