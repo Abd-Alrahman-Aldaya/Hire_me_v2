@@ -241,6 +241,7 @@ section > div {
     color: white;
     box-sizing: border-box;
     border-top: 1px solid rgba(red, green, blue, 1);
+    outline: none;
     border-bottom: 1px solid black;
     transition: .3s;
 }
