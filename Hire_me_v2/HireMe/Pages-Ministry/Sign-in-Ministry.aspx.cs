@@ -1,4 +1,5 @@
-﻿using HireMe.Class;
+﻿using Hire_me_v2.HireMe.Class;
+using HireMe.Class;
 using System;
 using System.Collections.Generic;
 using System.Linq;

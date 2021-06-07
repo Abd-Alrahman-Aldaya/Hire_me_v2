@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Hire_me_v2.HireMe.Class;
 
 namespace Hire_me_v2.HireMe.Pages_Universities
 {
@@ -161,7 +162,9 @@ namespace Hire_me_v2.HireMe.Pages_Universities
             das.open_connection();
             das.EX_Non_Query("update tb_graduate set graduate_check = 3, graduate_shahid = '" + shd+"' where id_graduate = " + id_grad+"");
             das.close_connection();
-            Response.Redirect($"~/HireMe/Pages-Universities/send message.aspx?id={id_grad} &message={message}");
+            string id_graduate = HttpUtility.UrlEncode(Ceaser.Encipher(id_grad.ToString(), 5));
+            string messageen = HttpUtility.UrlEncode(Ceaser.Encipher(message, 5)); 
+            Response.Redirect(string.Format($"~/HireMe/Pages-Universities/send message.aspx?id={id_graduate} &message={messageen}"));
             //Response.Redirect($"~/HireMe/Pages-Universities/send message.aspx?message={message}");
          //   Response.Redirect($"edite_stu.aspx?Email={student_email}");
         }

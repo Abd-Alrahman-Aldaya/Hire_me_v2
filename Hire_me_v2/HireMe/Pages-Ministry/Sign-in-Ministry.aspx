@@ -40,17 +40,17 @@
                 <section class="top-Content" dir="rtl">
             
                    <header>
-                       <h1 class="title-post">تسجيل الدخول </h1>
+                       <h1 class="title-post">عام</h1>
                    </header> 
             
-                   <h3 class="title-login"><i class="fa fa-chevron-left icon" ></i></h3>  
+                   <h3 class="title-login"><i class="fa fa-chevron-left icon" ></i>تسجيل الدخول</h3>  
                     
                     <section class="post-document">
 
                         <div class="post-login">
                             <span class="icon"><i class="fas fa-envelope"></i></span>
                             <span class="title-input">البريد الالكتروني</span>
-                            <asp:TextBox ID="Login_Email" CssClass="input" TextMode="Email" AutoCompleteType="Disabled" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="Login_Email" CssClass="input" TextMode="Email" runat="server"></asp:TextBox>
                             <%--<input type="text" class="input" id="email-ministry" placeholder="e-mail" autocomplete="off" />--%>
                             <span class="span-bottom"></span>
                         </div>
